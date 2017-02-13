@@ -33,8 +33,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "pony"
   spec.add_dependency "dry-validation"
-  spec.add_dependency "formular", ">=2.0.1", :git => "https://github.com/trailblazer/formular"
-
+  spec.add_dependency "formular", ">=2.0.1"
   spec.add_dependency "activerecord"
   spec.add_dependency "sqlite3"
   
