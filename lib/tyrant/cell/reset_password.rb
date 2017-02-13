@@ -5,6 +5,6 @@ module Tyrant::Cell
     include Formular::RailsHelper
     include Formular::Helper
 
-    self.view_paths << '/home/emamaglio/projects/tyrant/lib'
+    self.view_paths << 'lib'
   end
 end
