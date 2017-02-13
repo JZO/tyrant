@@ -10,7 +10,7 @@ module Tyrant::Contract
     validation do
       configure do
         option :form
-        config.messages_file = Tyrant.messages_file_path
+        config.messages_file = Tyrant.error_messages_path
 
         def user_exists?
           return User.find_by(email: form.email) != nil
