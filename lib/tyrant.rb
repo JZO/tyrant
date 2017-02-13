@@ -4,6 +4,7 @@ module Tyrant
   # Your code goes here...
 end
 
+require "config"
 require "disposable/twin"
 require "tyrant/authenticatable"
 require "tyrant/session"
