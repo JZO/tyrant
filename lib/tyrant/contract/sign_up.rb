@@ -11,7 +11,7 @@ module Tyrant::Contract
     validation do
       configure do
         option :form
-        config.messages_file = Config.error_messages_path 
+        config.messages_file = ::Config.error_messages_path 
         def unique_email?
           User.where("email = ?", form.email).size == 0
         end
