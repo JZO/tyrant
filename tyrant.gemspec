@@ -39,5 +39,5 @@ Gem::Specification.new do |spec|
   
   spec.add_dependency "trailblazer-cells"
   spec.add_dependency 'cells-rails'
-  spec.add_dependency 'cells-slim'
+  #spec.add_dependency 'cells-slim'
 end
